@@ -1,7 +1,7 @@
 # E.D.E.N - Sistema de Comunicação Interno
 
 ![Hero Image do E.D.E.N](img/TelaBasica.png)
-*(💡 Dica: Substitua `assets/hero_image_aqui.gif` pelo caminho de um pequeno GIF ou print principal mostrando a tela do chat com mensagens e usuários online)*
+*(Imagem da tela depois de entrada no sistema)*
 
 ## 📌 Sobre o Projeto
 O **Sistema de Comunicação Interno da E.D.E.N** é uma aplicação cliente-servidor de mensagens instantâneas desenvolvida em Java. A aplicação permite a comunicação em tempo real entre usuários de uma rede, suportando mensagens privadas, mensagens em grupo e notificações de status dinâmicas.
@@ -20,13 +20,13 @@ O projeto implementa uma arquitetura híbrida de rede, utilizando protocolos TCP
 
 - **Grupos (Salas de Bate-papo):** Criação de grupos, listagem, entrada (`JOIN`), saída (`LEAVE`) e envio de mensagens para membros de grupos específicos.
   <br>![Entrando em Grupos](img/entrandoGrupo.gif)
-  *(💡 Dica: Um GIF de 3 segundos de alguém digitando /JOIN e entrando numa sala)*
+  *(Entrando em grupos)*
 
 - **Lista de Usuários:** Visualização de usuários online globalmente e dos membros ativos em determinados grupos.
 - **Notificações em Tempo Real:** Atualizações dinâmicas (UDP) indicando na interface quando um usuário se conecta ou desconecta.
 - **Interface Gráfica (GUI):** Interface intuitiva e moderna construída com **JavaFX**, estilizada via CSS e incluindo um modo tutorial (`TutorialOverlay`).
   <br>![Tela de Tutorial](img\Tutorial.gif)
-  *(💡 Dica: Um print exibindo o seu belo TutorialOverlay em ação)*
+  *(Tutorial)*
 
 - **Protocolo Customizado de Aplicação:** Sistema próprio de empacotamento de dados e comandos padronizados (`JOIN`, `SENDPVT`, `LISTUSERS`, etc.) via formato `APDU`.
 
@@ -77,7 +77,7 @@ Por ser um projeto que utiliza JavaFX e não possuir um gerenciador de dependên
 # E.D.E.N - Internal Communication System (English Version)
 
 ![E.D.E.N Hero Image](img/TelaBasica.png)
-*(💡 Tip: Replace `assets/hero_image_aqui.gif` with the path to a short GIF or a main screenshot showing the chat screen with messages and online users)*
+
 
 ## 📌 About the Project
 The **E.D.E.N Internal Communication System** is a client-server instant messaging application developed in Java. The application allows real-time communication between users on a network, supporting private messages, group messages, and dynamic status notifications.
@@ -92,17 +92,14 @@ The project implements a hybrid network architecture, using TCP protocols for re
 ## 🚀 Features
 - **Private and Global Chat:** Send direct messages to specific users or to the lobby.
   <br>![Global/Private Chat](img/MensagensPrivadas.png)
-  *(💡 Tip: A screenshot of a private conversation or lobby chat)*
 
 - **Groups (Chat Rooms):** Group creation, listing, joining (`JOIN`), leaving (`LEAVE`), and sending messages to specific group members.
   <br>![Joining Groups](img/entrandoGrupo.gif)
-  *(💡 Tip: A 3-second GIF of someone typing /JOIN and entering a room)*
 
 - **User List:** View online users globally and active members in specific groups.
 - **Real-Time Notifications:** Dynamic updates (UDP) indicating on the interface when a user connects or disconnects.
 - **Graphical User Interface (GUI):** Intuitive and modern interface built with **JavaFX**, styled via CSS and including a tutorial mode (`TutorialOverlay`).
   <br>![Tutorial Screen](img\Tutorial.gif)
-  *(💡 Tip: A screenshot showing your beautiful TutorialOverlay in action)*
 
 - **Custom Application Protocol:** Proprietary system for data packaging and standardized commands (`JOIN`, `SENDPVT`, `LISTUSERS`, etc.) via the `APDU` format.
 
