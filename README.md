@@ -15,17 +15,20 @@ O projeto implementa uma arquitetura híbrida de rede, utilizando protocolos TCP
 
 ## 🚀 Funcionalidades
 - **Chat Privado e Global:** Envio de mensagens diretas para usuários específicos ou para o lobby.
-  <br>![Chat Global/Privado](img/MensagensPrivadas.png)
+
+  ![Chat Global/Privado](img/MensagensPrivadas.png)
   *(💡 Dica: Um print de uma conversa privada ou no lobby)*
 
 - **Grupos (Salas de Bate-papo):** Criação de grupos, listagem, entrada (`JOIN`), saída (`LEAVE`) e envio de mensagens para membros de grupos específicos.
-  <br>![Entrando em Grupos](img/entrandoGrupo.gif)
+
+  ![Entrando em Grupos](img/entrandoGrupo.gif)
   *(Entrando em grupos)*
 
 - **Lista de Usuários:** Visualização de usuários online globalmente e dos membros ativos em determinados grupos.
 - **Notificações em Tempo Real:** Atualizações dinâmicas (UDP) indicando na interface quando um usuário se conecta ou desconecta.
 - **Interface Gráfica (GUI):** Interface intuitiva e moderna construída com **JavaFX**, estilizada via CSS e incluindo um modo tutorial (`TutorialOverlay`).
-  <br>![Tela de Tutorial](img/Tutorial.gif)
+
+  ![Tela de Tutorial](img/Tutorial.gif)
   *(Tutorial)*
 
 - **Protocolo Customizado de Aplicação:** Sistema próprio de empacotamento de dados e comandos padronizados (`JOIN`, `SENDPVT`, `LISTUSERS`, etc.) via formato `APDU`.
@@ -91,15 +94,18 @@ The project implements a hybrid network architecture, using TCP protocols for re
 
 ## 🚀 Features
 - **Private and Global Chat:** Send direct messages to specific users or to the lobby.
-  <br>![Global/Private Chat](img/MensagensPrivadas.png)
+
+  ![Global/Private Chat](img/MensagensPrivadas.png)
 
 - **Groups (Chat Rooms):** Group creation, listing, joining (`JOIN`), leaving (`LEAVE`), and sending messages to specific group members.
-  <br>![Joining Groups](img/entrandoGrupo.gif)
+
+  ![Joining Groups](img/entrandoGrupo.gif)
 
 - **User List:** View online users globally and active members in specific groups.
 - **Real-Time Notifications:** Dynamic updates (UDP) indicating on the interface when a user connects or disconnects.
 - **Graphical User Interface (GUI):** Intuitive and modern interface built with **JavaFX**, styled via CSS and including a tutorial mode (`TutorialOverlay`).
-  <br>![Tutorial Screen](img/Tutorial.gif)
+
+  ![Tutorial Screen](img/Tutorial.gif)
 
 - **Custom Application Protocol:** Proprietary system for data packaging and standardized commands (`JOIN`, `SENDPVT`, `LISTUSERS`, etc.) via the `APDU` format.
 
